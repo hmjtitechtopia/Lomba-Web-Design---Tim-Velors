@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tentang Kami</title>
+	<link rel="stylesheet" href="css/tesmobile.css" media="(max-width: 600px)">
+	<link rel="stylesheet" href="css/testablet.css" media="(min-width: 601px) and (max-width: 1024px)">
+	<link rel="stylesheet" href="css/tes.css" media="(min-width: 1025px)">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!--ANIMATE ON SCROLL	-->	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+	<audio id="bgm" autoplay loop>
+  		<source src="assets/bgloop.mp3" type="audio/mpeg">
+	</audio>
+	<div id="loading" data-aos="fade-down">
+  		<video autoplay muted loop playsinline id="loading-video">
+    		<source src="assets/loading.mp4" type="video/mp4">
+	  	</video>
+	  	<h2>Velors</h2><br><br>
+	  	<p>All rights reserved</p>
+	</div>
+	<video autoplay muted loop id="bgVideo" class="VideoIndex">
+  		<source src="assets/bg-landing.mp4" type="video/mp4">
+	</video>
+	<nav class="navbar"  data-aos="fade-down">
+		<button onclick="location.href='index.html'" class="pindahPage">Velors™‎‎</button>
+  		<ul>
+		<li>
+			<a class="pindahPage"  href="index.html">
+				<span class="material-icons">home</span>
+			</a>
+			<a href="index.html" class="pindahPage nav-text">Beranda</a>
+		</li>
+    	<li>
+                <a class="disabledPage" href="penjelasan.html">
+				<span class="material-icons">list</span>
+			</a>
+			<a href="penjelasan.html" class="pindahPage nav-text">Penjelasan</a>
+		</li>
+    	<li>
+			<a class="disabledpage">
+				<span class="material-icons">info</span>
+			</a>
+			<a href="#" class="disabledpage nav-text">Tentang</a>
+		</li>
+  		</ul>
+		<button id="themeToggle">Tema: Terang</button>
+	</nav>
+	<div class="judul">
+		<h1>Tentang Kami</h1>
+	<div class="arrow">
+		<span class="material-icons">keyboard_arrow_down</span>
+	</div>
+	</div>
+	<div class="row reverse">
+		<div class="snap">
+			<div class="card cardFlex">
+  				<h3>Estelle Clarice</h3>
+  				<hr>
+  				<div class="media">
+    				<img src="assets/estelleclarice.jpg" alt="Louis Elvin William">
+    				<p>Ilustrator. Bertanggung jawab membuat seluruh ilustrasi dan desain visual untuk situs ini.</p>
+  				</div>
+			</div>
+			<div class="card cardFlex">
+  				<h3>Louis Elvin William</h3>
+  				<hr>
+  				<div class="media">
+    				<img src="assets/louiselvinwilliam.jpg" alt="Louis Elvin William">
+    				<p>Coder. Mengurus fungsi teknis dan detail pemrograman agar situs tetap responsif dan mudah digunakan.</p>
+  				</div>
+			</div>
+			
+		</div>
+		<div>
+			<div class="card cardFlex">
+  				<h3>Vency Vantolin</h3>
+  				<hr>
+  				<div class="media">
+    				<img src="assets/vencyvantolin.jpg" alt="Louis Elvin William">
+    				<p>Coder. Mengembangkan struktur dan fitur situs, serta memastikan semua berjalan dengan baik.</p>
+  				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- JS PALING AKHIR -->
+	<script src="js/script.js" defer></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+</body>
+</html>
